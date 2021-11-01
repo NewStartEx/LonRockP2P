@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DVR - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP134.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\public" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DVR.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Thinking\UDP_P2P\DVR\ClientTnel.cpp"
+"E:\Thinking\UDP_P2P\DVR\DVR.cpp"
+"E:\Thinking\UDP_P2P\DVR\DVRDlg.cpp"
+"E:\Thinking\UDP_P2P\DVR\DVRManager.cpp"
+"E:\Thinking\UDP_P2P\Public\Global.cpp"
+"E:\Thinking\UDP_P2P\DVR\LinkNets.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP134.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP135.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DVR.pdb" /debug /machine:I386 /out:"../bindbg/DVR.exe" /pdbtype:sept 
+.\Debug\ClientTnel.obj
+.\Debug\DVR.obj
+.\Debug\DVRDlg.obj
+.\Debug\DVRManager.obj
+.\Debug\Global.obj
+.\Debug\LinkNets.obj
+.\Debug\LocalSDKFun.obj
+.\Debug\md5.obj
+.\Debug\StdAfx.obj
+.\Debug\DVR.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP135.tmp"
+<h3>Output Window</h3>
+Compiling...
+ClientTnel.cpp
+Generating Code...
+Compiling...
+DVR.cpp
+DVRDlg.cpp
+DVRManager.cpp
+LinkNets.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+Global.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+DVR.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
